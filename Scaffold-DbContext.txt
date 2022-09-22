@@ -1,0 +1,8 @@
+Scaffold-DbContext "Server=DESKTOP-1UV53P0\SQLEXPRESS; Database=DatabaseFirst; Trusted_Connection=true; MultipleActiveResultSets=true"
+Microsoft.EntityFrameworkCore.SqlServer
+-UseDatabaseNames -DataAnotations -Context ApplicationDbContext -ContextDir Datos
+-OutPutDir Models
+
+
+Agregar historial de migracion: script-migration -idempotent -context ApplicationDbContext
+
